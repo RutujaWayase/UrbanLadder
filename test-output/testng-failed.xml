@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Comprehensive.HomePage">
+        <methods>
+          <include name="giftCards"/>
+          <include name="logIn" invocation-numbers="0"/>
+          <include name="logo"/>
+          <include name="subscribe"/>
+          <include name="initialize"/>
+          <include name="excelWishlist"/>
+          <include name="stores"/>
+          <include name="signUp" invocation-numbers="0"/>
+          <include name="trackOrder" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Comprehensive.HomePage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
